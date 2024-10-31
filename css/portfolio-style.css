@@ -1,0 +1,70 @@
+.filter-options {
+    width: 94%;
+	margin: 30px 0 20px;
+	overflow:hidden;
+	text-align:center;
+}
+
+.filter-options a { 
+    padding: 3px 10px;
+	background:#eee;
+	color: #000;
+	font-weight: normal;
+	text-decoration: none !important;
+	display: block;
+	border-radius:0px;
+	margin: 0px 10px 10px 0px; 
+	display: inline-block; 
+	float: none;
+	cursor:pointer
+}
+.filter-options a:hover { 
+	background:#39C; 
+	color:#fff !important; 
+	-webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+}
+
+.filter-options a.active { 
+    background:#39C; color:#fff !important;
+}
+
+.portfolioContainer{
+	width: 94%;
+	overflow: hidden;
+	list-style:none;
+}
+
+.picture-item {
+	padding:10px; 
+	margin:0 15px 15px 0; 
+	border:solid 1px #dcdcdc;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	position:relative;
+}
+.picture-item h3 { margin: 5px 0 0 0 !important; font-size: 14px; line-height: 14px; font-weight:normal }
+.picture-item a{text-decoration:none !important;}
+
+.picture-item a.mask {dislay:block; background:url(../img/icon-open.png) no-repeat center center #39C; height:100%; left:0; position:absolute; opacity:0; top:0; width:100%;}
+.picture-item a.mask:hover {
+		opacity:0.8;
+		-webkit-transition: all 200ms ease-out;
+		-moz-transition: all 500ms ease-out;
+		-o-transition: all 500ms ease-out;
+		transition: all 500ms ease-out;
+}
+.portfolio-content {margin-bottom:30px;}
+.portfolio-content h2{margin-bottom:10px !important; padding-bottom:0}
+.portfolio-image {text-align:center; width:100%; margin-bottom:20px;}
+.portfolio-label {color:#39c;}
+.portfolio-desc {margin:20px 0}
+.portfolio-col1 {float:left; width:60%; padding-right:2%; margin-top:20px}
+.testimonial-txt {float:right; width:33%; padding: 20px 0 0 3%; background:url(../img/testimonial-quote.png) 5px 0 no-repeat; border-left:solid 1px #ddd; margin-top:20px}
+.portfolio-all {background:url(../img/back.png) no-repeat center center #eee; width:24px; height:24px; float:right;}
+.portfolio-all:hover {background:url(../img/back.png) no-repeat center center #ddd;}
+.portfolio-content hr{margin:25px 0 0; padding:0; height:0; background:none; border:0; border-top: dotted 1px #ddd}
+.clear {clear:both}

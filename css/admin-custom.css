@@ -1,0 +1,4 @@
+/* Portfolio admin css */
+.txtbox, .txtarea {width:100%; margin:5px 0 4px;}
+.txtarea {height:100px;}
+.psettings td {border-bottom:solid 1px #ddd}
